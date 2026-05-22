@@ -1,0 +1,23 @@
+seed: 0
+
+benchmark:
+  dataset:
+    name: musk1
+    mat_path: /path/to/musk1.mat
+  model:
+    in_shape: [166]   
+    num_classes: 2
+    dropout: 0.1      
+    backbone_dim: 512   
+    inst_head_num_layers: 2
+  train:
+    epochs: 40
+    lr: 0.001
+    weight_decay: 0.0001
+    max_grad_norm: 1.0
+    save_dir: checkpoints/becnhmark_musk1
+    device: cuda
+  cv:
+    enabled: true
+    n_folds: 10
+    runs: 5
