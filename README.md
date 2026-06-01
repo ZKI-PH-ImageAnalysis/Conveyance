@@ -1,6 +1,6 @@
 # Conveyance: A Versatile Framework for Learning in Structured Class Spaces
 
-Link to **Conveyance** on arXiv: [![arXiv](https://img.shields.io/badge/arXiv-2605.28420-b31b1b.svg)](https://arxiv.org/abs/2605.28420v2)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.28420-b31b1b.svg)](https://arxiv.org/abs/2605.28420) Here is our paper: [Conveyance: A Versatile Framework for Learning in Structured Class Spaces](https://arxiv.org/abs/2605.28420v2)
 
 
 Standard loss functions like cross-entropy treat all classes symmetrically — ignoring any structural relationships between them. This is a fundamental limitation when class spaces carry meaningful structure (e.g., hierarchies, ordinal relationships) or when label noise is structured rather than random.
